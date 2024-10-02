@@ -276,6 +276,9 @@ st.set_page_config(
 
 st.title("Flights Prices Prediction - AWS SageMaker")
 
+# Add a GIF below the title
+st.image("https://media.giphy.com/media/xTiTnLWlTO6Btlt5Q4/giphy.gif", use_column_width=True)
+
 # user inputs
 airline = st.selectbox(
 	"Airline:",
