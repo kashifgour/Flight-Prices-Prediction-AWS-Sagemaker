@@ -276,9 +276,6 @@ st.set_page_config(
 
 st.title("Flights Prices Prediction - AWS SageMaker")
 
-# Add a Photo below the title
-st.image("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.shutterstock.com%2Fsearch%2Fairline-background&psig=AOvVaw0cNLz7ATgZ5r0lALoZaeLM&ust=1728125012773000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCKDX0r7F9IgDFQAAAAAdAAAAABAJ", use_column_width=True)
-
 # user inputs
 airline = st.selectbox(
 	"Airline:",
